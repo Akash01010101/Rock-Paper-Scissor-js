@@ -104,7 +104,7 @@ function scoreCard(){
     }
     else if (playerchoice_var=='rock'&&computerchoice_var=='paper'){
         computerscore=computerscore+1;
-        console.log('tie');
+       
     }else if (playerchoice_var=='rock'&&computerchoice_var=='scissor'){
         playerscore=playerscore+1;
     }else if (playerchoice_var=='paper'&&computerchoice_var=='rock'){
@@ -116,7 +116,7 @@ function scoreCard(){
     }else if (playerchoice_var=='scissor'&&computerchoice_var=='rock'){
       computerscore=computerscore+1;
     }
-    if(playerscore||computerscore===6){
+    if(playerscore===6||computerscore===6){
         computerscore=0;
         ties=0;
         playerscore=0;
@@ -133,3 +133,4 @@ function scoreCard(){
 </script>
 </body>
 </html>
+ 
