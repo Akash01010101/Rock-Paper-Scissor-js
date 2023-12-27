@@ -2,11 +2,13 @@
     font-family: silkscreen;
     margin: 0;
     padding: 0;
-    color: white;
+    
 }
 body{
     background-image: url("background.jpg");
     background-size: cover;
+    color:white;
+    overflow: auto;
 }
 main{
     display: none;
@@ -101,8 +103,10 @@ h1{
    word-spacing: 10px;
    cursor: pointer;
   border: 2px solid white;
+  color: white;
 }
 .start-div{
+    margin-bottom: 10vh;
     display: flex;
     justify-content: center;
     color: white;
@@ -134,3 +138,49 @@ h1{
     color: black;
 
 }
+#darktheme{
+    width: 200px;
+    height: 70px;
+    background-color: black;
+    color: white;
+
+}
+#default{
+    border: 1px solid blue;
+    cursor: pointer;
+    
+    display: none;
+    width: 200px;
+    height: 70px;
+    background-color: rgb(28, 28, 73);
+    color: white;
+}
+.changebtn{
+   cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15vh;
+
+}
+.fixedfoot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color:white;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.fixedfoot > *{
+    font-family: arial;
+    margin-right: 10px;
+}
+a{
+  color: blue;
+}
+
